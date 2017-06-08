@@ -1,0 +1,14 @@
+# WinMsgInfo
+
+## Windows Message Info
+### usage
+- show windows message name from id.
+
+## download
+
+[Release](https://github.com/JetMeta/WinMsgInfo/tree/master/bin "Release")
+
+### [0.00.01] - 14-05-21
+#### init
+- usage : show windows message name from id.
+- bg57iv3 & jetzux
