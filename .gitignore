@@ -1,9 +1,9 @@
 #BG57IV3 by JetZux Ltd.
 #debug & release
 [Dd]ebug*/
-#!**/3rd/**/[Dd]ebug*/
+!**/3rd/**/[Dd]ebug*/
 [Rr]elease*/
-#!**/3rd/**/[Rr]elease*/
+!**/3rd/**/[Rr]elease*/
 
 # Object files
 *.o
