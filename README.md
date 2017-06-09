@@ -10,5 +10,9 @@
 
 ### [0.00.01] - 14-05-21
 #### init
+- add vs2015 prj
+
+### [0.00.01] - 14-05-21
+#### init
 - usage : show windows message name from id.
 - bg57iv3 & jetzux
