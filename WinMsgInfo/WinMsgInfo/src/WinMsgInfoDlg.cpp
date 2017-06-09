@@ -76,6 +76,14 @@ CWinMsgInfoDlg::CWinMsgInfoDlg(CWnd* pParent /*=NULL*/)
 	msg_info = jzl_get_msg_biter();
 }
 
+CWinMsgInfoDlg::~CWinMsgInfoDlg()
+{
+	if (msg_info)
+	{
+		msg_info->release();
+	}
+}
+
 void CWinMsgInfoDlg::DoDataExchange(CDataExchange* pDX)
 {
 	CDialog::DoDataExchange(pDX);
@@ -191,7 +199,6 @@ void CWinMsgInfoDlg::OnButtonInfo()
 	if(msg_info)
 	{
 		m_strMsgInfo = msg_info->msg(id);
-		OutputDebugString(m_strMsgInfo);
 	}
 
 	UpdateData(FALSE);
@@ -199,7 +206,5 @@ void CWinMsgInfoDlg::OnButtonInfo()
 
 void CWinMsgInfoDlg::OnClose() 
 {
-	msg_info->release();
-	
 	CDialog::OnClose();
 }

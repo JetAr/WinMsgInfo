@@ -24,6 +24,7 @@ private:
 // Construction
 public:
 	CWinMsgInfoDlg(CWnd* pParent = NULL);	// standard constructor
+	~CWinMsgInfoDlg();
 
 // Dialog Data
 	//{{AFX_DATA(CWinMsgInfoDlg)
