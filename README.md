@@ -1,6 +1,6 @@
-# WinMsgInfo
+# WinMsgInfo - Windows Message Info 
+- trivial demo : retrieve windows message name from message id
 
-## Windows Message Info
 ### usage
 - show windows message name from id.
 
@@ -9,7 +9,7 @@
 [Release](https://github.com/JetMeta/WinMsgInfo/tree/master/bin "Release")
 
 ### [0.00.01] - 14-05-21
-#### init
+#### vs2015
 - add vs2015 prj
 
 ### [0.00.01] - 14-05-21
