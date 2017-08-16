@@ -89,14 +89,14 @@ FONT 8, "MS Sans Serif", 0, 0, 0x0
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
     LTEXT           "WinMsgInfo Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
-    LTEXT           "Copyright (C) 2017 JetZux && BG57IV3 Ltd. \r\n\r\nhttp://github.com/jetar/winmsginfo",IDC_STATIC,40,25,171,33
+    LTEXT           "Copyright (C) 2017 JetMeta && BG57IV3 Ltd. \r\n\r\nhttp://github.com/jetdemo/winmsginfo",IDC_STATIC,40,25,171,33
     DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
 END
 
 IDD_WINMSGINFO_DIALOG DIALOGEX 0, 0, 242, 100
 STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
 EXSTYLE WS_EX_APPWINDOW
-CAPTION "Windows Message Info"
+CAPTION "WinMsg Info-jetmeta@github"
 FONT 8, "MS Sans Serif", 0, 0, 0x1
 BEGIN
     DEFPUSHBUTTON   "Exit",IDOK,192,19,39,14
@@ -180,6 +180,11 @@ END
 //
 
 IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_WINMSGINFO_DIALOG AFX_DIALOG_LAYOUT
 BEGIN
     0
 END
